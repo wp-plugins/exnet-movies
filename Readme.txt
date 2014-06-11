@@ -1,6 +1,6 @@
 === ExNet Movies ===
 Contributors: TheAnuvhuti, extraperson
-Donate link: http://bit.ly/1gymi7f
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=7V7GRJBM8J4KJ&lc=US&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
 Tags: films, imdb, movie links, wordpress watch movies, wp tv shows
 Requires at least: 3.0.1
 Tested up to: 3.9.1
