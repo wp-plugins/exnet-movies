@@ -36,7 +36,7 @@ Installing the plugin is very easy just like any other wordpress plugin.
 
 * Easy Way: Your hosting settings must allow files of at least 300kb (plugin size) to be uploaded via form. Connect to wordpress admin panel and point to 'Plugins->Add New->Upload' and upload the zip file directly. Then go to 'wp-admin->plugins->and activate ExNet Movies Plugin'.
 
-* Another Way: No Upload size limit aplicable. Connect to your hosting via FTP and upload the extracted zip file folder of the plugin into 'wp-content/plugins/'. Then go to 'wp-admin->plugins->and activate ExNer Movies Plugin.
+* Another Way: No Upload size limit aplicable. Connect to your hosting via FTP and upload the extracted zip file folder of the plugin into 'wp-content/plugins/'. Then go to 'wp-admin->plugins->and activate ExNet Movies Plugin.
 
 
 == Frequently Asked Questions ==
@@ -78,6 +78,16 @@ From the plugin menu wp-admin->Movies->Genres you can add genres like "Action", 
 If you want to add movies/tv shows you just need to enter the IMDB URL and all movie details will be automatically fetched, and a new post will be created for you. From the plugin menu 'wp-admin->Movies->Autofetch Movie Info' you can automatically create a movie/tv show post with full details (title, genres, actors, runtime, poster, etc) by entering their ImDB URL.
 
 ** Attention: Use the url into this format: http://www.imdb.com/title/imdbID/. Extra parameters like ?ref=xx will cause the scrapper not work. **
+
+== Changelog ==
+
+= 1.1 =
+* Missing File Error Fixed
+* CSS Breakdown Fixed
+* And add some features.
+
+= 1.0 =
+* Initial release
 
 
 == Screenshots ==

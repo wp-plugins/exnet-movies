@@ -2,7 +2,7 @@
 /*
 Plugin Name: ExNet Movies
 Description: ExNet Movies plugin let's you run your own Movies & TV Shows listing website with embed/external links to watch.
-Version: 1.0
+Version: 1.1
 Author: Shameem Reza
 Author URI: http://shameemreza.info
 */
