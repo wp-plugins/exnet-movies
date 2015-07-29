@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: Watch Movie on WordPress
+Plugin Name: ExNet Movies
 Plugin URI: http://themology.net/shop/wordpress-watch-movie-plugin
 Description: Watch Movie plugin let's you run your own Movies & TV Shows listing website with embed/external links to watch.
-Version: 1.0.0
+Version: 2.0.0
 Author: Themology
 Author URI: http://themology.net
 */
