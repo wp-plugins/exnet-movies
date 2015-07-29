@@ -1,9 +1,9 @@
-=== ExNet Movies ===
-Contributors: TheAnuvhuti, extraperson
+=== Watch Movie ===
+Contributors: TheAnuvhuti
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=7V7GRJBM8J4KJ&lc=US&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
 Tags: films, imdb, movie links, wordpress watch movies, wp tv shows
 Requires at least: 3.0.1
-Tested up to: 3.9.1
+Tested up to: 4.2.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -11,7 +11,7 @@ Run Your own Movies & TV shows and Don't leave WordPress,
 
 == Description ==
 
-If you like to watch movies and TV shows, then you know that a lot of web site available out there, where you can watch movies. But all those sites built by using either any PHP script or just a static page. From now you also can make such a web site without having any coding knowledge by using Wordpress and Our "ExNet Movies" Plugin.
+If you like to watch movies and TV shows, then you know that a lot of web site available out there, where you can watch movies. But all those sites built by using either any PHP script or just a static page. From now you also can make such a web site without having any coding knowledge by using Wordpress and Our "Watch Movie" Plugin.
 
 = Features: =
 
@@ -29,14 +29,16 @@ If you like to watch movies and TV shows, then you know that a lot of web site a
 
 Besides above features, many more features has been included with this plugin which you can discover only by installing yourself and playing with the powers of this plugin.
 
+Get more WordPress and Woocommerce Plugins: <a href="http://themology.net" target="_blank">Themology</a>
+
 
 == Installation ==
 
 Installing the plugin is very easy just like any other wordpress plugin.
 
-* Easy Way: Your hosting settings must allow files of at least 300kb (plugin size) to be uploaded via form. Connect to wordpress admin panel and point to 'Plugins->Add New->Upload' and upload the zip file directly. Then go to 'wp-admin->plugins->and activate ExNet Movies Plugin'.
+* Easy Way: Your hosting settings must allow files of at least 300kb (plugin size) to be uploaded via form. Connect to wordpress admin panel and point to 'Plugins->Add New->Upload' and upload the zip file directly. Then go to 'wp-admin->plugins->and activate Watch Movie Plugin'.
 
-* Another Way: No Upload size limit aplicable. Connect to your hosting via FTP and upload the extracted zip file folder of the plugin into 'wp-content/plugins/'. Then go to 'wp-admin->plugins->and activate ExNet Movies Plugin.
+* Another Way: No Upload size limit aplicable. Connect to your hosting via FTP and upload the extracted zip file folder of the plugin into 'wp-content/plugins/'. Then go to 'wp-admin->plugins->and activate Watch Movie Plugin.
 
 
 == Frequently Asked Questions ==
@@ -51,14 +53,14 @@ After installation process completed, Our plugin will set your permalink structu
 
 Our plugin will automatically creates pages with required shortcodes to make it run: The second thing after installation is to configure your menu. You can do this by simply going to 'wp-admin->appearance->themes->menus'
 
-* Firt Page: "Watch Movies & TV Shows" Homepage with the tabs (recent/top rated/most commented/most links) - you can rename this page to any name. The most important thing is to keep the shortcode [exnet_generate_tabs] into post content.
+* Firt Page: "Watch Movies & TV Shows" Homepage with the tabs (recent/top rated/most commented/most links) - you can rename this page to any name. The most important thing is to keep the shortcode [themo_generate_tabs] into post content.
 
-* Second Page: "Search Movies & TV Shows This page is used for the search form to filter movies/tv shows by genre, kind, title, actor, etc. You can rename it, but keep the shortcode [exnet_movies] into post content
+* Second Page: "Search Movies & TV Shows This page is used for the search form to filter movies/tv shows by genre, kind, title, actor, etc. You can rename it, but keep the shortcode [themo_movies] into post content
 
 = Pages to Keep away from Menu =
 
-* exnet AJAX - Remove this page from menu (don't delete the actual wp page) -> It's used for the ajax star rating & pagination module.
-* exnet REDIRECT - Remove this page from menu (don't delete the actual wp page) -> It's used for the link redirection system.
+* WATCH MOVIE AJAX - Remove this page from menu (don't delete the actual wp page) -> It's used for the ajax star rating & pagination module.
+* WATCH MOVIE REDIRECT - Remove this page from menu (don't delete the actual wp page) -> It's used for the link redirection system.
 * Watch Online - Remove this page from menu (don't remove the actual wp page) -> It's used to show different "kinds" like Movies/Tv Shows with pagination.
 
 = Pagination Configuration =
@@ -80,6 +82,12 @@ If you want to add movies/tv shows you just need to enter the IMDB URL and all m
 ** Attention: Use the url into this format: http://www.imdb.com/title/imdbID/. Extra parameters like ?ref=xx will cause the scrapper not work. **
 
 == Changelog ==
+
+= 2.0 =
+* Completely New
+* Works with WordPress 4.x
+* Fixed Rating Bug
+* Added new features
 
 = 1.1 =
 * Missing File Error Fixed
